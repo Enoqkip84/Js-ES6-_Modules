@@ -6,4 +6,17 @@ const people = [
   { name: 'anna', job: 'the boss' },
 ];
 
-console.log(people);
+// console.log(people);
+
+const container = document.querySelector('.container');
+const btn = document.querySelector('.btn');
+
+const showPeople = () => {
+  const newPeople = people.map((person) => {
+    console.log(person);
+  });
+};
+
+btn.addEventListener('click', () => {
+  showPeople();
+});
