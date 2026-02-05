@@ -1,4 +1,4 @@
-MODULES ES6
+MODULES ES6 - Simply put, Module is a single statement placed in different files
 
 1. Provide Structure
 2. Split Code Into Smaller Files
