@@ -1,4 +1,5 @@
 //MODULES ES6 - Simply put, Module is a one statement placed in different files
+import { random } from './utils/data.js';
 
 const people = [
   { name: 'john', job: 'developer' },
@@ -7,6 +8,7 @@ const people = [
 ];
 
 // console.log(people);
+// console.log(random);
 
 const container = document.querySelector('.container');
 const btn = document.querySelector('.btn');
