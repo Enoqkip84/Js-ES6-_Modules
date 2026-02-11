@@ -24,6 +24,7 @@ export default - first way
 export default - second way
 ==================================================
 - Here, you can only export the value, wheather it is a string, object or array
+-not very helpful especially when checking errors
 */
 
 export default (people) => {
