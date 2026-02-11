@@ -20,6 +20,9 @@ export default - first way
 ==================================================
 export default - second way
 ==================================================
+- There is should only be one export default per file, unlike named export.
+- When importing, you can named it whatever you like, the name must not match unlike named export. 
+- There is an aspoect of parameter usage unlike the named export. 
 */
 
 export default (people) => {
