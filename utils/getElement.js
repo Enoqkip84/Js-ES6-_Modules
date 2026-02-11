@@ -1,9 +1,29 @@
-function getElement(selection) {
+/*
+======================================================
+First way
+======================================================
+
+*/
+// function getElement(selection) {
+//   const element = document.querySelector(selection);
+//   if (element) {
+//     return element;
+//   } else {
+//     throw Error('You did not select element');
+//   }
+// }
+// export default getElement;
+
+/*
+======================================================
+Second way
+======================================================
+*/
+export default function (selection) {
   const element = document.querySelector(selection);
   if (element) {
     return element;
   } else {
-    throw Error('You did not select element');
+    throw Error('You did not select element!');
   }
 }
-export default getElement;
